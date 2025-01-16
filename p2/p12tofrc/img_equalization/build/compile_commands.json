@@ -1,0 +1,27 @@
+[
+{
+  "directory": "/home/carles/Desktop/3/fsiv/p2/p12tofrc/img_equalization/build",
+  "command": "/usr/bin/c++  -isystem /usr/include/opencv4 -ggdb3 -O0 -Wall -std=gnu++11 -o CMakeFiles/img_equalization.dir/img_equalization.cpp.o -c /home/carles/Desktop/3/fsiv/p2/p12tofrc/img_equalization/img_equalization.cpp",
+  "file": "/home/carles/Desktop/3/fsiv/p2/p12tofrc/img_equalization/img_equalization.cpp"
+},
+{
+  "directory": "/home/carles/Desktop/3/fsiv/p2/p12tofrc/img_equalization/build",
+  "command": "/usr/bin/c++  -isystem /usr/include/opencv4 -ggdb3 -O0 -Wall -std=gnu++11 -o CMakeFiles/img_equalization.dir/common_code.cpp.o -c /home/carles/Desktop/3/fsiv/p2/p12tofrc/img_equalization/common_code.cpp",
+  "file": "/home/carles/Desktop/3/fsiv/p2/p12tofrc/img_equalization/common_code.cpp"
+},
+{
+  "directory": "/home/carles/Desktop/3/fsiv/p2/p12tofrc/img_equalization/build",
+  "command": "/usr/bin/c++  -isystem /usr/include/opencv4 -ggdb3 -O0 -Wall -std=gnu++11 -o CMakeFiles/img_equalization.dir/clahe.cpp.o -c /home/carles/Desktop/3/fsiv/p2/p12tofrc/img_equalization/clahe.cpp",
+  "file": "/home/carles/Desktop/3/fsiv/p2/p12tofrc/img_equalization/clahe.cpp"
+},
+{
+  "directory": "/home/carles/Desktop/3/fsiv/p2/p12tofrc/img_equalization/build",
+  "command": "/usr/bin/c++  -isystem /usr/include/opencv4 -ggdb3 -O0 -Wall -std=gnu++11 -o CMakeFiles/img_equalization_test_common_code.dir/test_common_code.cpp.o -c /home/carles/Desktop/3/fsiv/p2/p12tofrc/img_equalization/test_common_code.cpp",
+  "file": "/home/carles/Desktop/3/fsiv/p2/p12tofrc/img_equalization/test_common_code.cpp"
+},
+{
+  "directory": "/home/carles/Desktop/3/fsiv/p2/p12tofrc/img_equalization/build",
+  "command": "/usr/bin/c++  -isystem /usr/include/opencv4 -ggdb3 -O0 -Wall -std=gnu++11 -o CMakeFiles/img_equalization_test_common_code.dir/common_code.cpp.o -c /home/carles/Desktop/3/fsiv/p2/p12tofrc/img_equalization/common_code.cpp",
+  "file": "/home/carles/Desktop/3/fsiv/p2/p12tofrc/img_equalization/common_code.cpp"
+}
+]

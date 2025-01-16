@@ -1,0 +1,22 @@
+[
+{
+  "directory": "/home/carles/Desktop/3/fsiv/p3/usm_enhance/build",
+  "command": "/usr/bin/c++  -isystem /usr/include/opencv4 -ggdb3 -O0 -Wall -std=gnu++11 -o CMakeFiles/usm_enhance.dir/usm_enhance.cpp.o -c /home/carles/Desktop/3/fsiv/p3/usm_enhance/usm_enhance.cpp",
+  "file": "/home/carles/Desktop/3/fsiv/p3/usm_enhance/usm_enhance.cpp"
+},
+{
+  "directory": "/home/carles/Desktop/3/fsiv/p3/usm_enhance/build",
+  "command": "/usr/bin/c++  -isystem /usr/include/opencv4 -ggdb3 -O0 -Wall -std=gnu++11 -o CMakeFiles/usm_enhance.dir/common_code.cpp.o -c /home/carles/Desktop/3/fsiv/p3/usm_enhance/common_code.cpp",
+  "file": "/home/carles/Desktop/3/fsiv/p3/usm_enhance/common_code.cpp"
+},
+{
+  "directory": "/home/carles/Desktop/3/fsiv/p3/usm_enhance/build",
+  "command": "/usr/bin/c++  -isystem /usr/include/opencv4 -ggdb3 -O0 -Wall -std=gnu++11 -o CMakeFiles/usm_enhance_test_common_code.dir/test_common_code.cpp.o -c /home/carles/Desktop/3/fsiv/p3/usm_enhance/test_common_code.cpp",
+  "file": "/home/carles/Desktop/3/fsiv/p3/usm_enhance/test_common_code.cpp"
+},
+{
+  "directory": "/home/carles/Desktop/3/fsiv/p3/usm_enhance/build",
+  "command": "/usr/bin/c++  -isystem /usr/include/opencv4 -ggdb3 -O0 -Wall -std=gnu++11 -o CMakeFiles/usm_enhance_test_common_code.dir/common_code.cpp.o -c /home/carles/Desktop/3/fsiv/p3/usm_enhance/common_code.cpp",
+  "file": "/home/carles/Desktop/3/fsiv/p3/usm_enhance/common_code.cpp"
+}
+]

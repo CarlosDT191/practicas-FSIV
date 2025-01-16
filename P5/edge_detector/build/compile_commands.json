@@ -1,0 +1,22 @@
+[
+{
+  "directory": "/home/carles/Desktop/3/fsiv/P5/edge_detector/build",
+  "command": "/usr/bin/c++  -isystem /usr/include/opencv4 -ggdb3 -O0 -Wall -std=gnu++11 -o CMakeFiles/edge_detector.dir/edge_detector.cpp.o -c /home/carles/Desktop/3/fsiv/P5/edge_detector/edge_detector.cpp",
+  "file": "/home/carles/Desktop/3/fsiv/P5/edge_detector/edge_detector.cpp"
+},
+{
+  "directory": "/home/carles/Desktop/3/fsiv/P5/edge_detector/build",
+  "command": "/usr/bin/c++  -isystem /usr/include/opencv4 -ggdb3 -O0 -Wall -std=gnu++11 -o CMakeFiles/edge_detector.dir/common_code.cpp.o -c /home/carles/Desktop/3/fsiv/P5/edge_detector/common_code.cpp",
+  "file": "/home/carles/Desktop/3/fsiv/P5/edge_detector/common_code.cpp"
+},
+{
+  "directory": "/home/carles/Desktop/3/fsiv/P5/edge_detector/build",
+  "command": "/usr/bin/c++  -isystem /usr/include/opencv4 -ggdb3 -O0 -Wall -std=gnu++11 -o CMakeFiles/edge_detector_test_common_code.dir/test_common_code.cpp.o -c /home/carles/Desktop/3/fsiv/P5/edge_detector/test_common_code.cpp",
+  "file": "/home/carles/Desktop/3/fsiv/P5/edge_detector/test_common_code.cpp"
+},
+{
+  "directory": "/home/carles/Desktop/3/fsiv/P5/edge_detector/build",
+  "command": "/usr/bin/c++  -isystem /usr/include/opencv4 -ggdb3 -O0 -Wall -std=gnu++11 -o CMakeFiles/edge_detector_test_common_code.dir/common_code.cpp.o -c /home/carles/Desktop/3/fsiv/P5/edge_detector/common_code.cpp",
+  "file": "/home/carles/Desktop/3/fsiv/P5/edge_detector/common_code.cpp"
+}
+]

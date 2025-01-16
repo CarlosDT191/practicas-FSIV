@@ -1,0 +1,22 @@
+[
+{
+  "directory": "/home/carles/Desktop/3/fsiv/p1/chroma_key/build",
+  "command": "/usr/bin/c++  -isystem /usr/include/opencv4 -ggdb3 -O0 -Wall -std=gnu++11 -o CMakeFiles/chroma_key.dir/chroma_key.cpp.o -c /home/carles/Desktop/3/fsiv/p1/chroma_key/chroma_key.cpp",
+  "file": "/home/carles/Desktop/3/fsiv/p1/chroma_key/chroma_key.cpp"
+},
+{
+  "directory": "/home/carles/Desktop/3/fsiv/p1/chroma_key/build",
+  "command": "/usr/bin/c++  -isystem /usr/include/opencv4 -ggdb3 -O0 -Wall -std=gnu++11 -o CMakeFiles/chroma_key.dir/common_code.cpp.o -c /home/carles/Desktop/3/fsiv/p1/chroma_key/common_code.cpp",
+  "file": "/home/carles/Desktop/3/fsiv/p1/chroma_key/common_code.cpp"
+},
+{
+  "directory": "/home/carles/Desktop/3/fsiv/p1/chroma_key/build",
+  "command": "/usr/bin/c++  -isystem /usr/include/opencv4 -ggdb3 -O0 -Wall -std=gnu++11 -o CMakeFiles/chroma_key_test_common_code.dir/test_common_code.cpp.o -c /home/carles/Desktop/3/fsiv/p1/chroma_key/test_common_code.cpp",
+  "file": "/home/carles/Desktop/3/fsiv/p1/chroma_key/test_common_code.cpp"
+},
+{
+  "directory": "/home/carles/Desktop/3/fsiv/p1/chroma_key/build",
+  "command": "/usr/bin/c++  -isystem /usr/include/opencv4 -ggdb3 -O0 -Wall -std=gnu++11 -o CMakeFiles/chroma_key_test_common_code.dir/common_code.cpp.o -c /home/carles/Desktop/3/fsiv/p1/chroma_key/common_code.cpp",
+  "file": "/home/carles/Desktop/3/fsiv/p1/chroma_key/common_code.cpp"
+}
+]

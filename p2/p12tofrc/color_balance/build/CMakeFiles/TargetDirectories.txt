@@ -1,0 +1,4 @@
+/home/carles/Desktop/3/fsiv/p2/p12tofrc/color_balance/build/CMakeFiles/color_balance.dir
+/home/carles/Desktop/3/fsiv/p2/p12tofrc/color_balance/build/CMakeFiles/color_balance_test_common_code.dir
+/home/carles/Desktop/3/fsiv/p2/p12tofrc/color_balance/build/CMakeFiles/edit_cache.dir
+/home/carles/Desktop/3/fsiv/p2/p12tofrc/color_balance/build/CMakeFiles/rebuild_cache.dir

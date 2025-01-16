@@ -1,0 +1,4 @@
+/home/carles/Desktop/3/fsiv/P5/edge_detector/build/CMakeFiles/edge_detector.dir
+/home/carles/Desktop/3/fsiv/P5/edge_detector/build/CMakeFiles/edge_detector_test_common_code.dir
+/home/carles/Desktop/3/fsiv/P5/edge_detector/build/CMakeFiles/edit_cache.dir
+/home/carles/Desktop/3/fsiv/P5/edge_detector/build/CMakeFiles/rebuild_cache.dir
