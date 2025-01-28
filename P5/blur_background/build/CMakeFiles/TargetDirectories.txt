@@ -1,4 +1,0 @@
-/home/carles/Desktop/3/fsiv/P5/blur_background/build/CMakeFiles/blur_background.dir
-/home/carles/Desktop/3/fsiv/P5/blur_background/build/CMakeFiles/blur_background_test_common_code.dir
-/home/carles/Desktop/3/fsiv/P5/blur_background/build/CMakeFiles/edit_cache.dir
-/home/carles/Desktop/3/fsiv/P5/blur_background/build/CMakeFiles/rebuild_cache.dir
