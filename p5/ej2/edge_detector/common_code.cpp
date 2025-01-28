@@ -43,22 +43,13 @@ void fsiv_compute_gradient_histogram(cv::Mat const &gradient, int n_bins, cv::Ma
     // Hint: use cv::minMaxLoc to get the gradient range {0, max_gradient}
     double min_val, max_val;
     cv::minMaxLoc(gradient, &min_val, &max_val);
-    max_gradient= static_cast<float>(max_val);
+    max_gradient = static_cast<float>(max_val);
 
-    hist= cv::Mat::zeros(n_bins, 1, CV_32FC1);
+    std::vector<int> channels = {0};
+    std::vector<float> ranges = {0.0f, max_gradient};
+    std::vector<int> histSize = {n_bins};
 
-    for (int y= 0; y < gradient.rows; ++y) {
-        for (int x= 0; x < gradient.cols; ++x) {
-            float grad_value= gradient.at<float>(y, x);
-            int bin_idx= static_cast<int>((grad_value / max_gradient) * (n_bins - 1));
-
-            // Asegurarse de que el índice del bin esté en el rango correcto.
-            bin_idx = std::min(bin_idx, n_bins - 1);
-            hist.at<float>(bin_idx)++;
-        }
-    }
-
-    hist/= (gradient.rows * gradient.cols);
+    cv::calcHist(std::vector<cv::Mat>{gradient},channels,cv::noArray(),hist,histSize,ranges);
     //
     CV_Assert(max_gradient > 0.0);
     CV_Assert(hist.rows == n_bins);
@@ -84,6 +75,11 @@ int fsiv_compute_histogram_percentile(cv::Mat const &hist, float percentile)
             break;
         }
     }
+
+    if (idx == hist.rows) {
+        idx = hist.rows - 1;
+    }
+
     //
     CV_Assert(idx >= 0 && idx < hist.rows);
     CV_Assert(idx == 0 || cv::sum(hist(cv::Range(0, idx), cv::Range::all()))[0] / cv::sum(hist)[0] < percentile);
@@ -181,8 +177,10 @@ void fsiv_canny_edge_detector(cv::Mat const &dx, cv::Mat const &dy, cv::Mat &edg
     float max_gradient;
     fsiv_compute_gradient_histogram(gradient, n_bins, hist, max_gradient);
 
+
     int idx_low= fsiv_compute_histogram_percentile(hist, th1);
     int idx_high= fsiv_compute_histogram_percentile(hist, th2);
+
     float low_th= fsiv_histogram_idx_to_value(idx_low, n_bins, max_gradient);
     float high_th= fsiv_histogram_idx_to_value(idx_high, n_bins, max_gradient);
 
