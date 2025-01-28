@@ -1,5 +1,0 @@
-/home/carles/Desktop/3/fsiv/p4/p12tofrc/calibrate/build/CMakeFiles/calibrate.dir
-/home/carles/Desktop/3/fsiv/p4/p12tofrc/calibrate/build/CMakeFiles/undistort.dir
-/home/carles/Desktop/3/fsiv/p4/p12tofrc/calibrate/build/CMakeFiles/calibrate_test_common_code.dir
-/home/carles/Desktop/3/fsiv/p4/p12tofrc/calibrate/build/CMakeFiles/edit_cache.dir
-/home/carles/Desktop/3/fsiv/p4/p12tofrc/calibrate/build/CMakeFiles/rebuild_cache.dir
